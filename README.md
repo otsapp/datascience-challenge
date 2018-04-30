@@ -1,3 +1,10 @@
+## Instructions
+- Use `pipenv shell` to activate virtual environment.
+- Access main file under `supervised_classifier.ipynb`.
+
+## Abstract
+The classic 'bag-of-words' approach was used, vectorising each review, weighting with tf-idf and reducing with chi-squared. Following, extra pre-processing steps were used in an attempt to improve the strongest model. SVM proved stronger than Naive Bayes, and worked best using chi-squared feature reduction without oversampling or lemmatisation with ~0.78 accuracy. Predictions were far less accurate on the less represented classes.
+
 <p align="center">
   <img height="100px" src="https://bunch.ai/wp-content/themes/bunch/images/bunch-logo-rgb.svg" alt="Bunch" />
 </p>
